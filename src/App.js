@@ -1,12 +1,17 @@
 import "./App.css";
 import "./components/Countries/Countries.css";
+import "./components/Footer/Footer.css";
 import Countries from "./components/Countries/Countries";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       {/* <LoadCountries></LoadCountries> */}
       <Countries></Countries>
+      <Footer></Footer>
     </div>
   );
 }
