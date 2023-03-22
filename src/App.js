@@ -1,7 +1,14 @@
 import "./App.css";
+import "./components/Countries/Countries.css";
+import Countries from "./components/Countries/Countries";
 
 function App() {
-  return <div className="App">{/* <LoadCountries></LoadCountries> */}</div>;
+  return (
+    <div className="App">
+      {/* <LoadCountries></LoadCountries> */}
+      <Countries></Countries>
+    </div>
+  );
 }
 
 /* function LoadCountries() {
