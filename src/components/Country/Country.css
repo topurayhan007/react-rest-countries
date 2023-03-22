@@ -1,0 +1,8 @@
+.country {
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+  background-color: bisque;
+  border: 2px solid darkgoldenrod;
+  border-radius: 20px;
+}
